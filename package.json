@@ -1,38 +1,38 @@
 {
-	"name": "vscode-figma-toolkit",
-	"version": "0.0.1",
-	"private": false,
-	"description": "A Figma design toolkit for Visual Studio Code",
-	"keywords": [
-		"land"
-	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandFigmaToolkit#readme",
+	"author": {
+		"email": "Land@PlayForm.Cloud",
+		"name": "🌆 — Land —",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
 	"bugs": {
 		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandFigmaToolkit/issues"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/LandFigmaToolkit.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "🌆 — Land —",
-		"email": "Land@PlayForm.Cloud",
-		"url": "HTTPS://Land.PlayForm.Cloud"
-	},
-	"type": "module",
-	"main": "index.js",
-	"scripts": {
-		"Document": "Document 'Source/**/*.ts'",
-		"export": "sh scripts/export.sh",
-		"prepublishOnly": "Build 'Source/**/*.ts'"
-	},
+	"description": "A Figma design toolkit for Visual Studio Code",
 	"devDependencies": {
 		"@playform/build": "0.0.7",
 		"@playform/document": "0.0.6",
 		"node-jq": "4.3.1"
 	},
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandFigmaToolkit#readme",
+	"keywords": [
+		"land"
+	],
+	"license": "SEE LICENSE IN LICENSE",
+	"main": "index.js",
+	"name": "vscode-figma-toolkit",
+	"private": false,
 	"publishConfig": {
 		"access": "public"
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandFigmaToolkit.git"
+	},
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"export": "sh scripts/export.sh",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
+	},
+	"type": "module",
+	"version": "0.0.1"
 }
