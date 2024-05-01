@@ -30,7 +30,7 @@
 	"devDependencies": {
 		"@playform/build": "0.0.7",
 		"@playform/document": "0.0.6",
-		"node-jq": "^1.11.0"
+		"node-jq": "4.3.1"
 	},
 	"publishConfig": {
 		"access": "public"
