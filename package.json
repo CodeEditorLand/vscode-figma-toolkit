@@ -1,14 +1,22 @@
 {
-	"name": "vscode-figma-toolkit",
-	"description": "A Figma design toolkit for Visual Studio Code",
-	"main": "index.js",
-	"scripts": {
-		"Document": "Document 'Source/**/*.ts'",
-		"export": "sh scripts/export.sh",
-		"prepublishOnly": "Build 'Source/**/*.ts'"
-	},
-	"devDependencies": {
-		"@playform/build": "0.0.7",
-		"node-jq": "4.3.1"
-	}
+  "name": "vscode-figma-toolkit",
+  "version": "1.0.0",
+  "description": "A Figma design toolkit for Visual Studio Code",
+  "main": "index.js",
+  "scripts": {
+    "export": "sh scripts/export.sh"
+  },
+  "devDependencies": {
+    "node-jq": "^1.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microsoft/vscode-figma-toolkit.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/microsoft/vscode-figma-toolkit/issues"
+  },
+  "homepage": "https://github.com/microsoft/vscode-figma-toolkit#readme"
 }
