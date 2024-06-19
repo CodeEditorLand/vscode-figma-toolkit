@@ -7,7 +7,7 @@
     "export": "sh scripts/export.sh"
   },
   "devDependencies": {
-    "node-jq": "4.4.0"
+    "node-jq": "^1.11.0"
   },
   "repository": {
     "type": "git",
