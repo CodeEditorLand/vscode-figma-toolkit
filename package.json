@@ -6,6 +6,6 @@
 		"export": "sh scripts/export.sh"
 	},
 	"devDependencies": {
-		"node-jq": "^1.11.0"
+		"node-jq": "1.11.0"
 	}
 }
