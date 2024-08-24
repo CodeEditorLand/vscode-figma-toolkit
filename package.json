@@ -1,11 +1,11 @@
 {
-	"name": "vscode-figma-toolkit",
 	"description": "A Figma design toolkit for Visual Studio Code",
-	"main": "index.js",
-	"scripts": {
-		"export": "sh scripts/export.sh"
-	},
 	"devDependencies": {
 		"node-jq": "6.0.1"
+	},
+	"main": "index.js",
+	"name": "vscode-figma-toolkit",
+	"scripts": {
+		"export": "sh scripts/export.sh"
 	}
 }
