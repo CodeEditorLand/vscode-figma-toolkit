@@ -1,8 +1,0 @@
-{
-	"description": "A Figma design toolkit for Visual Studio Code",
-	"main": "index.js",
-	"name": "vscode-figma-toolkit",
-	"scripts": {
-		"export": "sh scripts/export.sh"
-	}
-}
